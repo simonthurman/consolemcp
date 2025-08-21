@@ -1,0 +1,29 @@
+{
+	"servers": {
+		"consoleMCP": {
+			"type": "stdio",
+			"command": "dotnet",
+			"args": [
+				"run",
+				"--project",
+				"/workspaces/consolemcp/consoleMCP.csproj"
+			],
+			"env": {}
+		},
+		"github": {
+			"type": "http",
+			"url": "https://api.githubcopilot.com/mcp/"
+		},
+		"writermcp": {
+			"url": "https://writer-apim.azure-api.net/writerapi-mcp/mcp",
+			"headers":{
+				"Ocp-Apim-Subscription-Key": "b07fdbe55e6146e0b6157c2b7e8677b0"
+			},
+			"type": "http",
+			"timeout": 300000,
+			"requestTimeout": 300000,
+			"connectionTimeout": 60000
+		}
+	},
+	"inputs": []
+}

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("consoleMCP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+446dfc9fadca7f2ef58b126522c84dbcd9044cce")]
 [assembly: System.Reflection.AssemblyProductAttribute("consoleMCP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("consoleMCP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

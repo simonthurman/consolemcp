@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run consoleMCP (dotnet run)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/Debug/net9.0/consoleMCP.dll",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "build",
+      "env": {
+        "DOTNET_ROOT": "${env:HOME}/.dotnet"
+      }
+    }
+  ]
+}

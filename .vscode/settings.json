@@ -1,0 +1,26 @@
+{
+  "servers": {
+    "consoleMCP": {
+      "type": "stdio",
+      "transport": "stdio",
+      "command": "dotnet",
+      "cwd": "/workspaces/consolemcp",
+      "env": {
+        "DOTNET_ROOT": "${env:HOME}/.dotnet"
+      },
+      "args": [
+        "run",
+        "--project",
+        "/workspaces/consolemcp/consoleMCP.csproj"
+      ]
+    },
+    
+  // Optional: Auto-start MCP servers when VS Code opens
+  "mcp.autoStart": true,
+
+  // Optional: Logging for debugging
+  "mcp.logLevel": "info"
+
+  }
+  
+}
