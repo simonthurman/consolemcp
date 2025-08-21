@@ -1,0 +1,21 @@
+# Ignore build outputs
+/bin/
+/obj/
+
+# VS Code workspace files (keep extension settings but not per-user MCP launchers)
+.vscode/.mcp.json
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# Rider/IDE settings
+.idea/
+*.sln.iml
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
